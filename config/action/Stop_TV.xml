@@ -1,0 +1,12 @@
+<actions>
+
+
+<action>
+<id>1</id>
+<name>Off TV</name>
+<cmd><![CDATA[http://192.168.0.103/media.php?action=stop]]></cmd>
+</action>
+
+
+
+</actions>

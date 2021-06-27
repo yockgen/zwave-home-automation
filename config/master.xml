@@ -1,0 +1,4 @@
+<nodes>
+<node id="HA00001" type="0" name="piserver01" ip="192.168.0.103" external_ip="175.136.78.93"/>
+<node id="HA00002" type="1" name="yockgencam01" ip="192.168.0.110:8090" external_ip="175.136.78.93:8090"/>
+</nodes>

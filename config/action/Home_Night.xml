@@ -1,0 +1,24 @@
+<actions>
+
+<action>
+<id>1</id>
+<name>On Living Room</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[37].Set(255)]]></cmd>
+</action>
+
+
+<action>
+<id>2</id>
+<name>On Car Park</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[4].instances[0].commandClasses[37].Set(255)]]></cmd>
+</action>
+
+
+
+<action>
+<id>3</id>
+<name>Off Alarm</name>
+<cmd><![CDATA[http://192.168.0.100:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=0]]></cmd>
+</action>
+
+</actions>

@@ -1,0 +1,70 @@
+<actions>
+
+<action>
+<id>1</id>
+<name>Off Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=0]]></cmd>
+</action>
+
+
+<action>
+<id>2</id>
+<name>Off Car Park</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[4].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+
+<action>
+<id>3</id>
+<name>On Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=1]]></cmd>
+</action>
+
+
+
+<action>
+<id>4</id>
+<name>Off Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=0]]></cmd>
+</action>
+
+
+<action>
+<id>5</id>
+<name>Off Car Park</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[4].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+
+<action>
+<id>7</id>
+<name>On Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=1]]></cmd>
+</action>
+
+
+<action>
+<id>8</id>
+<name>Off Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=0]]></cmd>
+</action>
+
+
+<action>
+<id>5</id>
+<name>Off Car Park</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[4].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+
+<action>
+<id>9</id>
+<name>On Alarm</name>
+<cmd><![CDATA[http://192.168.0.109:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=1]]></cmd>
+</action>
+
+
+</actions>

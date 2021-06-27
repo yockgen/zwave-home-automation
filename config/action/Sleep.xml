@@ -1,0 +1,30 @@
+<actions>
+
+<action>
+<id>1</id>
+<name>Off TV</name>
+<cmd><![CDATA[http://192.168.0.103/media.php?action=stop]]></cmd>
+</action>
+
+<action>
+<id>2</id>
+<name>Off Air Cond</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[3].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+<action>
+<id>3</id>
+<name>On Alarm</name>
+<cmd><![CDATA[http://192.168.0.100:8090/set_alarm.cgi?user=admin&pwd=760713&motion_armed=1]]></cmd>
+</action>
+
+<action>
+<id>4</id>
+<name>Off Living Room</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+
+</actions>

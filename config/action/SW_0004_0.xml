@@ -1,0 +1,11 @@
+<actions>
+
+
+<action>
+<id>2</id>
+<name>Off Living Room</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[37].Set(0)]]></cmd>
+</action>
+
+
+</actions>

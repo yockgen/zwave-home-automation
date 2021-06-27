@@ -1,0 +1,11 @@
+<actions>
+
+
+<action>
+<id>2</id>
+<name>Off Car Park</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[4].instances[0].commandClasses[37].Set(255)]]></cmd>
+</action>
+
+
+</actions>

@@ -1,0 +1,10 @@
+<actions>
+
+
+<action>
+<id>1</id>
+<name>Off Dimmer</name>
+<cmd><![CDATA[http://192.168.0.103:8083/ZWaveAPI/Run/devices[2].instances[0].commandClasses[38].Set(0)]]></cmd>
+</action>
+
+</actions>

@@ -1,0 +1,11 @@
+http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8,NASA,0
+http://ntv7liveios-i.akamaihd.net/hls/live/205902/ios/ntv7live/master.m3u8,NTV7,0
+http://8tvliveios-i.akamaihd.net/hls/live/205901/ios/8tvlive/master.m3u8,8TV,0
+http://tv3liveios-i.akamaihd.net/hls/live/205900/ios/tv3live/master.m3u8,TV3,0
+http://tv9liveios-i.akamaihd.net/hls/live/205903/ios/tv9live/master.m3u8,TV9,0
+rtmp://sd2.hwadzan.com/liveedge/masterck,Buddhist 1,0
+rtmp://hk2.hwadzan.com/liveedge/cult,Buddhist 2,0
+rtmp://119.110.96.71/live/1htv,1htv,0
+http://74.122.193.208:1935/DrundooDVR/_definst_/smil:76fb9045-19c1-4411-8674-51a0ef28e83d.smil/PAZ.m3u8,Cartoon Network,0
+http://74.122.193.208:1935/DrundooDVR/_definst_/smil:5339e06d-3be5-4ff7-bf18-9fc670d825a8.smil/PAZ.m3u8,Discovery,0
+http://74.122.193.208:1935/DrundooDVR/_definst_/smil:5339e06d-3be5-4ff7-bf18-9fc670d825a8.smil/PAZ.m3u8,CNN,0
