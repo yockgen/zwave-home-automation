@@ -1,7 +1,9 @@
 # zwave-home-automation web application 
-## Hardware   
+## Mandatory Hardware   
 1 x Raspberry PI   
 1 x Razberry https://z-wave.me/products/razberry/    
+
+## Z-Wave devices configure for this app, user could configure via Razberry interface
 2 x IP Cameras    
 2 x Zwave wall mounted switch    
 1 x Zwave dimmer     
