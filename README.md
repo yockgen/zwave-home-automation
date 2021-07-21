@@ -17,7 +17,7 @@ PHP
 Apache     
 
 
-## How to access web interface of Razbeery to configure/add/remove new zwave devices    
+## How to access web interface of Razbeery to configure/add/remove zwave devices    
 http://xxx.xxx.xxx.xxx:8083/   <-replace xxx.xxx.xxx.xxx with PI IP address  
 
 
