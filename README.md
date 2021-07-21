@@ -1,16 +1,27 @@
 # zwave-home-automation web application 
 ## Hardware   
-Raspberry PI   
-Razberry https://z-wave.me/products/razberry/    
+1 x Raspberry PI   
+1 x Razberry https://z-wave.me/products/razberry/    
+2 x IP Cameras    
+2 x Zwave wall mounted switch    
+1 x Zwave dimmer     
+1 x Zwave socket     
 
 ## Web Client
 HTML   
 CSS   
-Jquery 
+Jquery 1.4.3
 
 ## Web Server
 PHP   
-Apache
+Apache     
 
+
+## How to access web interface of Razbeery to configure/add/remove new zwave devices    
+http://xxx.xxx.xxx.xxx:8083/   <-replace xxx.xxx.xxx.xxx with PI IP address  
+
+
+## web api to control zwave device (e.g. off/on switch, control dimmer etc.) 
+http://xxx.xxx.xxx.xxx:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[37].Set(255) <-replace xxx.xxx.xxx.xxx with PI IP address
 
 
