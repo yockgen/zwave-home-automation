@@ -1,2 +1,3 @@
 # zwave-home-automation web application 
-hardware Raspberry PI + Razberry https://z-wave.me/products/razberry/
+Hardware   
+Raspberry PI + Razberry https://z-wave.me/products/razberry/
