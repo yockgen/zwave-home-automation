@@ -2,7 +2,7 @@
 
 function GetCredential($id)
 {
-	return "user=admin&pwd=760713";
+	return "user=admin&pwd=xxxxxx";
 }
 
 function GetIP($id)
