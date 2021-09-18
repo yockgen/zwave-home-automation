@@ -26,4 +26,5 @@ http://xxx.xxx.xxx.xxx:8083/   <-replace xxx.xxx.xxx.xxx with PI IP address
 ## web api to control zwave device (e.g. off/on switch, control dimmer etc.) 
 http://xxx.xxx.xxx.xxx:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[37].Set(255) <-replace xxx.xxx.xxx.xxx with PI IP address
 
-
+## How to save image from IP cameras
+wget --output-document /home/pi/movidius/temp/test04.jpg 'http://xxx.xxx.xxx.xxx:8090/snapshot.cgi?user=xxxx&pwd=xxxxx&resolution=32'
