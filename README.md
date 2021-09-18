@@ -3,7 +3,7 @@
 1 x Raspberry PI   
 1 x Razberry https://z-wave.me/products/razberry/    
 
-## Z-Wave devices configured for this app
+## z-wave devices configured for this app
 2 x IP Cameras    
 2 x Zwave wall mounted switch    
 1 x Zwave dimmer     
@@ -28,3 +28,4 @@ http://xxx.xxx.xxx.xxx:8083/ZWaveAPI/Run/devices[5].instances[0].commandClasses[
 
 ## How to save image from IP cameras
 wget --output-document /home/pi/movidius/temp/test04.jpg 'http://xxx.xxx.xxx.xxx:8090/snapshot.cgi?user=xxxx&pwd=xxxxx&resolution=32'
+ <-replace xxx.xxx.xxx.xxx with PI IP address   
