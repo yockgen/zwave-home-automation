@@ -3,6 +3,9 @@
 1 x Raspberry PI   
 1 x Razberry https://z-wave.me/products/razberry/    
 
+## Running Web UI Application
+http://xxx.xxx.xxx.xxxx/main.php  
+
 ## z-wave devices configured for this app
 2 x IP Cameras    
 2 x Zwave wall mounted switch    
